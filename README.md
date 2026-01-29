@@ -15,7 +15,7 @@ Never attack real systems or hashes without proper permission.
 ## Usage
 
 ```bash
-git clone https://github.com/samrat-xyz/sha256_hashes-cracking-by-hashcat.git
+git clone https://github.com/md-samrat/sha256_hashes-cracking-by-hashcat.git
 cd sha256_hashes-cracking-by-hashcat
 hashcat -m 1400 -a 0 sha256.txt /usr/share/wordlists/rockyou.txt
 hashcat -m 1400 sha256.txt --show 
